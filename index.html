@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="flex">
+
+    <!-- registration form -->
+    <div class="left-div flex">
+        <h2>Employee Registration Form:</h2>
+
+        <form action="#" class="myForm">
+
+            
+            <label for="emp_id">Employee Id</label>
+            <input type="text" name="id" id="emp_id" autocomplete="off" placeholder="your id">
+
+
+            <label for="emp_name">Employee Name</label>
+            <input type="text" name="name" id="emp_name" autocomplete="off" placeholder="your name">
+
+            
+            <label for="emp_email">Employee Email</label>
+            <input type="email" name="email" id="emp_email" autocomplete="off" placeholder="your email">
+
+            
+            <label for="emp_contact">Employee Contact no:</label>
+            <input type="number" name="phone" id="emp_contact" autocomplete="off" placeholder="your contact no:">
+
+            
+            <label for="emp_experience">Employee Experience</label>
+            <input type="number" name="Experience" id="emp_experience" autocomplete="off" placeholder="select your experience">
+            
+
+            
+            <label for="emp_role">Employee Role</label>
+            <select name="role" id="emp_role">
+                <option value="junior developer">FrontEnd Developer</option>
+                <option value="senior developer">BackEnd Developer</option>
+                <option value="Mern Developer">Mern Developer</option>
+                <option value="Mean developer">Mean Developer</option>
+            </select>
+
+            <button id="submit">submit form</button>
+
+        </form>
+    </div>
+
+    <div class="right-div">
+      <table>
+        <thead>
+            <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Employee Email</th>
+                <th>Employee Contact</th>
+                <th>Employee Experience</th>
+                <th>Employee Role</th>
+                <th>More</th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            
+        </tbody>
+
+       
+      </table>
+    </div>
+    
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
